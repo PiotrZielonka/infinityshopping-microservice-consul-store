@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    infinityshopping.online.app.config.\
+    SqlTestContainersSpringContextCustomizerFactory
