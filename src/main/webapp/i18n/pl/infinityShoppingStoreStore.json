@@ -1,0 +1,26 @@
+{
+  "infinityShoppingStoreApp": {
+    "infinityShoppingStoreStore": {
+      "home": {
+        "title": "Store",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Store",
+        "createOrEditLabel": "Dodaj lub edytuj: Store",
+        "notFound": "No Stores found"
+      },
+      "created": "Utworzono nowy obiekt typu Store z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Store z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Store z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Store {{ id }}?"
+      },
+      "detail": {
+        "title": "Store"
+      },
+      "id": "ID",
+      "name": "Name",
+      "location": "Location",
+      "phoneNumber": "Phone Number"
+    }
+  }
+}
