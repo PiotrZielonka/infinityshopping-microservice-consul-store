@@ -1,14 +1,11 @@
-# InfinityShopping Microservice – Store 
+# InfinityShopping Consul Microservice – Store 
 
-This is the **Store** microservice from the **microservices-based concept** of the [InfinityShopping](https://github.com/PiotrZielonka/infinityshopping) e-commerce shop generator, originally implemented as a **monolithic JHipster application**.
+This is the **Store** consul microservice from the **microservices-based concept** of the [InfinityShopping](https://github.com/PiotrZielonka/infinityshopping) e-commerce shop generator, originally implemented as a **monolithic JHipster application**.
 
 The purpose of this repository is to **learn and demonstrate microservices architecture** using **JHipster**, **Spring Boot**, and **Consul**, while offering a solid base for scaling the monolith into a full microservices solution.
 
 If you want to run the entire application, you must run all microservices described in the main README here:  
-👉 [InfinityShopping Microservices Product Concept](https://github.com/PiotrZielonka/infinityshopping-microservices-consul-product-concept)
-
-> 🛠️ This is a **training and concept project**, not a production-ready application.
-
+👉 [InfinityShopping Microservices Consul Product Concept](https://github.com/PiotrZielonka/infinityshopping-microservices-consul-product-concept)
 ---
 
 ## 🧪 Running the Application Locally
@@ -44,9 +41,8 @@ To make sure you are running with the correct setup:
 
 ### Launch only this microservice
 
-1. Start the Gateway  
-   [Gateway Repository](https://github.com/PiotrZielonka/infinityshopping-consul-gateway)
-2. Start the Store `localhost:8081` 
+1. Start the Gateway [Gateway Repository](https://github.com/PiotrZielonka/infinityshopping-consul-gateway)
+2. Start the Microservicestore `localhost:8081` 
 3. In each project directory (gateway and store), run the following command:
 
   ```bash
@@ -63,21 +59,17 @@ mvnw
 
 ---
 
+## 📫 Questions?
+
+If you have questions or want to connect:
+
+* Check out the monolith version: [InfinityShopping Monolith](https://github.com/PiotrZielonka/infinityshopping)
+* Open an issue on this repository
+
+---
+
 ## 🔭 Project Scope
 
 This is a **learning playground** but also a **powerful concept prototype** for real-world microservice systems.
 
 ---
-
-## 📫 Questions?
-
-If you have questions or want to connect:
-
-* Open an issue on this repository
-* Check out the monolith version: [InfinityShopping Monolith](https://github.com/PiotrZielonka/infinityshopping)
-
----
-
-## 🤝 Contributing
-
-This is a personal training and demo project. Contributions are welcome.
